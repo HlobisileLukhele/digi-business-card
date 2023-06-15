@@ -1,15 +1,16 @@
-import React from 'react'
-import Headshot from "./src/images/head-shot"
+import React, { Component } from 'react'
 
-export default function Header () {
+ class Header extends Component {
+  render() {
     return (
-        <div>
-            <div className="container">
-                <img src={"../images/head-shot.png"} alt="smile" />
-                <h1>Hlobisile Lukhele</h1>
-                <h3>Fronted Developer</h3>
-                <a href='www.hlobisile-lukhele-portfolio-netlify.app' rel="noreferrer"></a>
-            </div>
-        </div>
+      <div>
+        <h2>Hlobisile Lukhele</h2>
+        <h4>Fronted Developer</h4>
+        
+      </div>
     )
+  }
 }
+
+export default Header
+
