@@ -4,7 +4,7 @@ import React, { Component } from 'react'
   render() {
     return (
       <div>
-        <h2>Hlobisile Lukhele</h2>
+        <h2>Hlobisile Jenise Lukhele</h2>
         <h4>Fronted Developer</h4>
         
       </div>
