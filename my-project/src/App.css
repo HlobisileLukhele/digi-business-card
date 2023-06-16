@@ -48,3 +48,10 @@
   font-size:25px;
   font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
 }
+.about {
+  font-size:22px;
+}
+.info {
+    font-size: 15px;
+    font-family:monospace;
+}
