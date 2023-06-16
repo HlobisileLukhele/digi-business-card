@@ -1,14 +1,15 @@
 import Header from "./Components/Header"
-import Headshot from "../images/head-shot"
 import './App.css';
-
+import Button from "./Components/Button"
+import About from "./Components/About"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="App bg-black">
        <Header />
-       </Header>
-     
+       <Button />
+       <About />
+
+        
     </div>
   );
 }
