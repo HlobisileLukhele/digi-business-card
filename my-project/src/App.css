@@ -2,6 +2,7 @@
 
 .App {
   text-align: center;
+  background-color: black;
 }
 
 .App-logo {
@@ -50,11 +51,29 @@
   font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
 }
 .about {
-  font-size:22px;
+  font-size:30px;
   color:white;
+  margin-top:25px;
+  text-align: left;
+  font-family:monospace;
 }
 .info {
-    font-size: 15px;
+    font-size: 18px;
     font-family:monospace;
     color:white;
+
+}
+.interest {
+  font-size:30px;
+  color:white;
+  margin-top:25px;
+  text-align: left;
+  font-family:monospace;
+  font-weight:bold;
+}
+
+.interest-info {
+  font-size: 18px;
+  font-family:sans-serif;
+  color:white;
 }

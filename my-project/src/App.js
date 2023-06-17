@@ -2,14 +2,17 @@ import Header from "./Components/Header"
 import './App.css';
 import Button from "./Components/Button"
 import About from "./Components/About"
-import Card from "./Components/Card"
+import Interest from "./Components/Interest"
+
+
 function App() {
   return (
     <div className="App bg-black">
-      <Card />
+    <img src="../images/head-shot.png" alt="myself smiling" />
       <Header />
        <Button />
        <About />
+       <Interest />
 
         
     </div>
