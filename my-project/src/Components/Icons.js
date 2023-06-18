@@ -1,17 +1,18 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { SiFacebook, SiTwitter, SiGithub } from 'react-icons/si';
+
+const fontStyles = {color: 'white', fontSize: '40px'};
 
 export class Icons extends Component {
   render() {
     return (
-      <div>
-        <i className="fa-brands fa-square-facebook"></i>
-        <i className="fa-brands fa-square-twitter"></i>
-        <i className="fa-brands fa-square-github"></i>
-
-        
+      <div className="social-icons">
+        <SiFacebook style={fontStyles}/>
+        <SiTwitter style={fontStyles}/>
+        <SiGithub style={fontStyles}/>
       </div>
-    )
+    );
   }
 }
 
-export default Icons
+export default Icons;
