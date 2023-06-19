@@ -12,7 +12,7 @@ function App() {
     <div className="App bg-black">
 
       <img src={Hlobisile} className="Head-shot" alt="me-smiling " />
-        <Header />
+       <Header />
        <Button />
        <About />
        <Interest />
